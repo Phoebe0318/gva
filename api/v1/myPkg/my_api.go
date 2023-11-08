@@ -9,6 +9,6 @@ type MyApi struct {
 }
 
 func (m *MyApi) CreateApi(c *gin.Context) {
-	//myApiService.CreateApiS()
+	myApiService.CreateApiS()
 	response.Ok(c)
 }

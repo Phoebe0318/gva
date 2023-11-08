@@ -8,8 +8,8 @@ import (
 type MyApi struct {
 }
 
-func (e *MyApi) InitMyApiRouter(Router *gin.RouterGroup) {
-	MyRouterGroup := Router.Group("myapi")
+func (e *MyApi) InitMyApiRouter(Router *gin.RouterGroup, RouterPub *gin.RouterGroup) {
+	MyRouterGroup := RouterPub.Group("myapi")
 	api := v1.ApiGroupApp.MyPkgApiGroup.MyApi
 	{
 		MyRouterGroup.POST("create", api.CreateApi)
