@@ -1,0 +1,11 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 16:18:04.281	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:49	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 16:18:04.595	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:86	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 16:18:04.611	[34minfo[0m	C:/workspace/gin-vue-admin/server/core/server.go:41	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:14:53.786	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:49	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:14:53.922	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:86	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:14:53.938	[34minfo[0m	C:/workspace/gin-vue-admin/server/core/server.go:41	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:16:23.787	[34minfo[0m	C:/workspace/gin-vue-admin/server/api/v1/system/sys_initdb.go:57	前往初始化数据库
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:56:05.385	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:56:05.387	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:49	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:56:05.393	[34minfo[0m	C:/workspace/gin-vue-admin/server/initialize/router.go:86	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/07 - 17:56:05.399	[34minfo[0m	C:/workspace/gin-vue-admin/server/core/server.go:41	server run success on 	{"address": ":8888"}
