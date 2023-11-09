@@ -30,20 +30,4 @@ func (p *ProductService) CreateProduct(productName string, productVendor string,
 	}
 
 	return nil
-
-	//构建 SQL 插入语句
-	//sql := "INSERT INTO products (productName, productVendor, quantityInStock, buyPrice) VALUES (?, ?, ?, ?)"
-	//result := global.GVA_DB.Exec(sql, product.ProductName, product.ProductVendor, product.QuantityInStock, product.BuyPrice)
-	//
-	//// 检查是否发生错误
-	//if result.Error != nil {
-	//	return result.Error
-	//}
-	//
-	//// 检查插入影响的行数
-	//if result.RowsAffected == 0 {
-	//	return errors.New("插入数据失败")
-	//}
-	//
-	//return nil
 }
