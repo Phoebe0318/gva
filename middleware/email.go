@@ -16,7 +16,7 @@ import (
 	"go.uber.org/zap"
 )
 
-var userService = service.ServiceGroupApp.SystemServiceGroup.UserService
+var userService = service.AppServices.SystemServiceGroup.UserService
 
 func ErrorToEmail() gin.HandlerFunc {
 	return func(c *gin.Context) {

@@ -11,7 +11,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var casbinService = service.ServiceGroupApp.SystemServiceGroup.CasbinService
+var casbinService = service.AppServices.SystemServiceGroup.CasbinService
 
 // CasbinHandler 拦截器
 func CasbinHandler() gin.HandlerFunc {

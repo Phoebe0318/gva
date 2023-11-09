@@ -7,5 +7,5 @@ type ApiGroup struct {
 }
 
 var (
-	myApiService = service.ServiceGroupApp.MyPkgServiceGroup.MyApi
+	myApiService = service.AppServices.MyPkgServiceGroup.MyApi
 )

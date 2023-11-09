@@ -20,7 +20,7 @@ import (
 	"go.uber.org/zap"
 )
 
-var operationRecordService = service.ServiceGroupApp.SystemServiceGroup.OperationRecordService
+var operationRecordService = service.AppServices.SystemServiceGroup.OperationRecordService
 
 var respPool sync.Pool
 var bufferSize = 1024

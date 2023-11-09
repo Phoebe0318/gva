@@ -8,6 +8,6 @@ type ApiGroup struct {
 }
 
 var (
-	customerService              = service.ServiceGroupApp.ExampleServiceGroup.CustomerService
-	fileUploadAndDownloadService = service.ServiceGroupApp.ExampleServiceGroup.FileUploadAndDownloadService
+	customerService              = service.AppServices.ExampleServiceGroup.CustomerService
+	fileUploadAndDownloadService = service.AppServices.ExampleServiceGroup.FileUploadAndDownloadService
 )

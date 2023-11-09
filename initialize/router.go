@@ -31,6 +31,7 @@ func Routers() *gin.Engine {
 	systemRouter := router.RouterGroupApp.System
 	exampleRouter := router.RouterGroupApp.Example
 	pkgRouter := router.RouterGroupApp.MyPkg
+	productRouter := router.RouterGroupApp.Product
 	// 如果想要不使用nginx代理前端网页，可以修改 web/.env.production 下的
 	// VUE_APP_BASE_API = /
 	// VUE_APP_BASE_PATH = http://localhost
@@ -82,7 +83,7 @@ func Routers() *gin.Engine {
 		exampleRouter.InitCustomerRouter(PrivateGroup)              // 客户路由
 		exampleRouter.InitFileUploadAndDownloadRouter(PrivateGroup) // 文件上传下载功能路由
 		pkgRouter.InitMyApiRouter(PrivateGroup, PublicGroup)        // 手寫路由api的方法
-
+		productRouter.InitProductApiRouter(PublicGroup)             // 產品相關路由
 	}
 
 	global.GVA_LOG.Info("router register success")

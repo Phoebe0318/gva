@@ -21,20 +21,20 @@ type ApiGroup struct {
 }
 
 var (
-	apiService              = service.ServiceGroupApp.SystemServiceGroup.ApiService
-	jwtService              = service.ServiceGroupApp.SystemServiceGroup.JwtService
-	menuService             = service.ServiceGroupApp.SystemServiceGroup.MenuService
-	userService             = service.ServiceGroupApp.SystemServiceGroup.UserService
-	initDBService           = service.ServiceGroupApp.SystemServiceGroup.InitDBService
-	casbinService           = service.ServiceGroupApp.SystemServiceGroup.CasbinService
-	autoCodeService         = service.ServiceGroupApp.SystemServiceGroup.AutoCodeService
-	baseMenuService         = service.ServiceGroupApp.SystemServiceGroup.BaseMenuService
-	authorityService        = service.ServiceGroupApp.SystemServiceGroup.AuthorityService
-	dictionaryService       = service.ServiceGroupApp.SystemServiceGroup.DictionaryService
-	systemConfigService     = service.ServiceGroupApp.SystemServiceGroup.SystemConfigService
-	operationRecordService  = service.ServiceGroupApp.SystemServiceGroup.OperationRecordService
-	autoCodeHistoryService  = service.ServiceGroupApp.SystemServiceGroup.AutoCodeHistoryService
-	dictionaryDetailService = service.ServiceGroupApp.SystemServiceGroup.DictionaryDetailService
-	authorityBtnService     = service.ServiceGroupApp.SystemServiceGroup.AuthorityBtnService
-	chatGptService          = service.ServiceGroupApp.SystemServiceGroup.ChatGptService
+	apiService              = service.AppServices.SystemServiceGroup.ApiService
+	jwtService              = service.AppServices.SystemServiceGroup.JwtService
+	menuService             = service.AppServices.SystemServiceGroup.MenuService
+	userService             = service.AppServices.SystemServiceGroup.UserService
+	initDBService           = service.AppServices.SystemServiceGroup.InitDBService
+	casbinService           = service.AppServices.SystemServiceGroup.CasbinService
+	autoCodeService         = service.AppServices.SystemServiceGroup.AutoCodeService
+	baseMenuService         = service.AppServices.SystemServiceGroup.BaseMenuService
+	authorityService        = service.AppServices.SystemServiceGroup.AuthorityService
+	dictionaryService       = service.AppServices.SystemServiceGroup.DictionaryService
+	systemConfigService     = service.AppServices.SystemServiceGroup.SystemConfigService
+	operationRecordService  = service.AppServices.SystemServiceGroup.OperationRecordService
+	autoCodeHistoryService  = service.AppServices.SystemServiceGroup.AutoCodeHistoryService
+	dictionaryDetailService = service.AppServices.SystemServiceGroup.DictionaryDetailService
+	authorityBtnService     = service.AppServices.SystemServiceGroup.AuthorityBtnService
+	chatGptService          = service.AppServices.SystemServiceGroup.ChatGptService
 )

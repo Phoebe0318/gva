@@ -1,0 +1,3 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/09 - 14:54:11.030	[31merror[0m	C:/workspace/gva/api/v1/system/sys_auto_code.go:184	创建成功!	{"error": "open C:\\workspace\\server\\service\\enter.go: The system cannot find the file specified."}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/09 - 14:54:18.283	[31merror[0m	C:/workspace/gva/api/v1/system/sys_auto_code.go:184	创建成功!	{"error": "open C:\\workspace\\server\\service\\enter.go: The system cannot find the file specified."}
+[github.com/flipped-aurora/gin-vue-admin/server]2023/11/09 - 14:55:00.253	[31merror[0m	C:/workspace/gva/api/v1/system/sys_auto_code.go:184	创建成功!	{"error": "open C:\\workspace\\server\\service\\enter.go: The system cannot find the file specified."}
