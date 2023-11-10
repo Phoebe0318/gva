@@ -13,5 +13,6 @@ func (e *ProductApi) InitProductApiRouter(Router *gin.RouterGroup) {
 	api := v1.ApiGroupApp.ProductApiGroup.ProductApi
 	{
 		ProductRouterGroup.POST("create", api.CreateApi)
+		ProductRouterGroup.DELETE("delete", api.DeleteApi)
 	}
 }
